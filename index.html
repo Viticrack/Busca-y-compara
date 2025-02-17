@@ -36,12 +36,19 @@
     </div>
 
     <script>
-        const products = [
-            { name: "Laptop HP", store: "Amazon", price: 850, link: "#" },
-            { name: "Laptop HP", store: "eBay", price: 820, link: "#" },
-            { name: "iPhone 14", store: "Apple", price: 999, link: "#" },
-            { name: "iPhone 14", store: "Best Buy", price: 970, link: "#" }
-        ];
+     const products = [
+    { name: "Laptop HP", store: "Amazon", price: 850, link: "#" },
+    { name: "Laptop HP", store: "eBay", price: 820, link: "#" },
+    { name: "iPhone 14", store: "Apple", price: 999, link: "#" },
+    { name: "iPhone 14", store: "Best Buy", price: 970, link: "#" },
+
+    // NUEVOS PRODUCTOS Y TIENDAS
+    { name: "Samsung Galaxy S23", store: "Amazon", price: 750, link: "#" },
+    { name: "Samsung Galaxy S23", store: "Samsung Store", price: 740, link: "#" },
+    { name: "PlayStation 5", store: "GameStop", price: 499, link: "#" },
+    { name: "PlayStation 5", store: "Walmart", price: 510, link: "#" }
+];
+
 
         function loadProducts() {
             let table = document.getElementById("product-list");
